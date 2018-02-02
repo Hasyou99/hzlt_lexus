@@ -1,0 +1,64 @@
+#page5 .show_content{
+	width: 100%;
+	height: 16rem;
+	position: absolute;
+	bottom: 10rem;
+	background-color: rgba(80, 80, 80, 0.9);
+}
+
+#page5 img.com_circle{
+	width: 11.5rem;
+	height: 11.5rem;
+	bottom: 24.5rem;
+	left: 0;
+}
+
+#page5 p.step04{
+	width: 9rem;
+	height: 9rem;
+	word-wrap: wrap;
+	bottom: 24.5rem;
+	left: 1.4rem;
+	font-size: 1.6rem;
+	color: #fff;
+	z-index: 8;
+	text-align: center;
+}
+.step04 span{
+	display: block;
+}
+
+#page5 .step_bar01{
+	position: absolute;
+	left: 3rem;
+	bottom: 22rem;
+	z-index: 8;
+	font-weight: 800;
+}
+
+#page5 .step_bar01 img,
+#page5 .step_bar02 img{
+	width: 167px;
+	height: 28px;
+}
+#page5 .step_bar02{
+	position: absolute;
+	left: 1rem;
+	bottom: 15rem;
+	z-index: 8;
+	font-weight: 800;
+}
+#page5 .step_bar01 p.p01,
+#page5 .step_bar02 p.p01{
+	width: 300px;
+	font-size: 1.2rem;
+	font-weight: 100;
+	color: #fff;
+	top: 4rem;
+}
+
+#page5 .step_bar01 span,
+#page5 .step_bar02 span{
+	color: #000;
+	left: 40px;
+}

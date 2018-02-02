@@ -1,0 +1,108 @@
+
+#page9 p{
+	text-align: center;
+	width: 100%;
+    top: 17rem;
+    position: absolute;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+#page9 img{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 11rem;
+    left: calc(50% - 100px);
+}
+#page9 p span{
+	display: block;
+}
+#page10 .rotate{
+    position: relative;
+}
+#page10 .rotate img{
+    width: 17rem;
+    height: 17rem;
+    margin: 45% auto;
+    -webkit-animation: rotate_circle 14s infinite linear;
+}
+
+ @-webkit-keyframes rotate_circle {
+      0%{
+        -webkit-transform: rotate(-360deg);
+    	}
+      100% {
+        -webkit-transform: rotate(0deg);
+      }
+    }
+
+@-moz-keyframes rotate_circle {
+   0%{
+    -webkit-transform: rotate(-360deg);
+	}
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate_circle {
+  0%{
+    -webkit-transform: rotate(-360deg);
+	}
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+
+#page10 div.text{
+	width: 14rem;
+    height: 17rem;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 7rem);
+}
+.top{
+	width: 100%;
+	height: 8.5rem;
+    border-bottom: 1px solid #fff;
+    line-height: 12rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.bot{
+	margin-top: 5px;
+	height: 8.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    top: 8.5rem;
+    position: absolute;
+    width: 14rem;
+}
+.bot span{
+	display: block;
+	top: 0;
+}
+.bot span.p01{
+	left: 3rem;
+}
+.bot span.p02{
+    top: 2rem;
+    left: 1.5rem;
+}
+
+
+
+/* 音乐控制 */
+
+#audio_div{
+	background: url(../images/音乐-开.png) no-repeat center bottom;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 9;
+    -webkit-animation: rotate_circle 4s infinite linear;
+}

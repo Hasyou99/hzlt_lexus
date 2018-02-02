@@ -1,0 +1,76 @@
+#page6 .show_content{
+	width: 100%;
+	height: 36rem;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#page6 img.com_circle{
+	width: 10rem;
+	height: 10rem;
+	bottom: 25rem;
+	left: 2rem;
+}
+
+#page6 p.step05{
+	width: 8rem;
+	height: 8rem;
+	word-wrap: wrap;
+	bottom: 25.4rem;
+	left: 3.2rem;
+	font-size: 1.3rem;
+	 line-height: 1.6rem;
+	color: #fff;
+	z-index: 8;
+	text-align: center;
+}
+.step05 span{
+	display: block;
+}
+
+#page6 .step_bar01{
+	position: absolute;
+	right: 1rem;
+	bottom: 31rem;
+	z-index: 8;
+	font-weight: 800;
+}
+
+#page6 .step_bar01 img,
+#page6 .step_bar02 img,
+#page6 .step_bar03 img{
+	width: 167px;
+	height: 28px;
+}
+#page6 .step_bar02{
+	position: absolute;
+	left: 4rem;
+	bottom: 21rem;
+	z-index: 8;
+	font-weight: 800;
+}
+
+#page6 .step_bar03{
+	position: absolute;
+	left: 4rem;
+	bottom: 11rem;
+	z-index: 8;
+	font-weight: 800;
+}
+#page6 .step_bar01 p.p01,
+#page6 .step_bar02 p.p01,
+#page6 .step_bar03 p.p01{
+	width: 170px;
+	font-size: 1.2rem;
+	font-weight: 100;
+	color: #fff;
+	top: 3rem;
+}
+
+#page6 .step_bar01 span,
+#page6 .step_bar02 span,
+#page6 .step_bar03 span{
+	color: #000;
+	left: 40px;
+}

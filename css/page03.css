@@ -1,0 +1,54 @@
+#page3 .show_content{
+	width: 80%;
+	height: 30rem;
+	position: absolute;
+	bottom: 4rem;
+	left: 10%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+#page3 img.com_circle{
+	width: 10rem;
+	height: 10rem;
+	bottom: 30rem;
+	left: calc(50% - 5rem);
+}
+
+#page3 p.step02{
+	width: 8rem;
+	height: 8rem;
+	word-wrap: wrap;
+	bottom: 30.5rem;
+	left: calc(50% - 4rem);
+	font-size: 1.5rem;
+	color: #fff;
+	z-index: 8;
+	text-align: center;
+}
+.step02 span{
+	display: block;
+}
+
+#page3 .step_bar01{
+	position: absolute;
+	left: 5rem;
+	bottom: 24rem;
+	z-index: 8;
+	font-weight: 800;
+}
+
+#page3 .step_bar02{
+	position: absolute;
+	left: 7rem;
+	bottom: 14rem;
+	z-index: 8;
+	font-weight: 800;
+}
+#page3 .step_bar01 p.p01,
+#page3 .step_bar02 p.p01{
+	width: 300px;
+	font-size: 1.2rem;
+	font-weight: 100;
+	top: 4.5rem;
+}
+
